@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 自己的app
     'gallery.apps.GalleryConfig',
+    'blog',
 
 ]
 
