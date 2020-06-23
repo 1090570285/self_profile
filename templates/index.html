@@ -8,8 +8,11 @@
     <h1>个人主页</h1>
     {% for gallery in gallerys.all %}
     {{ gallery.description }}
+        <img src="{{ gallery.image.url }}">
     {% endfor %}
     <h2>测试</h2>
+
+    <h3>李宝华</h3>
 
 
 </body>
