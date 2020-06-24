@@ -118,7 +118,7 @@
   <div class="album py-5 bg-light">
     <div class="container">
         {% for blog in blogs.all %}
-        {{blog.title}}
+            <h2><a href="{{ blog.id }}">{{blog.title}}</a></h2>
         <br>
         {{blog.data}}
         <br>
